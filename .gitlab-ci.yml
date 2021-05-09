@@ -1,0 +1,18 @@
+image: 'node:latest'
+cache:
+  paths:
+   - packages/web-node/node_modules/
+
+stages:
+ - staging
+
+pages:
+  stage: staging
+  script: 
+   - echo 'Nothing to do for now'
+  artifacts:
+    paths:
+     - public
+    expire_in: 1 week
+  only:
+  - master
