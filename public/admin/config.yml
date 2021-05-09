@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: kiser360/algorand-is-awesome
+  site_domain: cbb558b3-4e64-4282-bb0f-7d7064b54e28
   squash_merges: true
   open_authoring: true
 
